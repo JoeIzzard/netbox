@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-18 05:02+0000\n"
+"POT-Creation-Date: 2024-06-19 05:08+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -58,7 +58,7 @@ msgstr ""
 msgid "Allowed IPs"
 msgstr ""
 
-#: netbox/account/views.py:197
+#: netbox/account/views.py:204
 msgid "Your preferences have been updated."
 msgstr ""
 
@@ -10790,36 +10790,28 @@ msgstr ""
 msgid "NetBox Logo"
 msgstr ""
 
-#: netbox/templates/base/layout.html:56
-msgid "Enable dark mode"
-msgstr ""
-
-#: netbox/templates/base/layout.html:59
-msgid "Enable light mode"
-msgstr ""
-
-#: netbox/templates/base/layout.html:145
+#: netbox/templates/base/layout.html:139
 msgid "Docs"
 msgstr ""
 
-#: netbox/templates/base/layout.html:151
+#: netbox/templates/base/layout.html:145
 #: netbox/templates/rest_framework/api.html:10
 msgid "REST API"
 msgstr ""
 
-#: netbox/templates/base/layout.html:157
+#: netbox/templates/base/layout.html:151
 msgid "REST API documentation"
 msgstr ""
 
-#: netbox/templates/base/layout.html:164
+#: netbox/templates/base/layout.html:158
 msgid "GraphQL API"
 msgstr ""
 
-#: netbox/templates/base/layout.html:171
+#: netbox/templates/base/layout.html:165
 msgid "Source Code"
 msgstr ""
 
-#: netbox/templates/base/layout.html:177
+#: netbox/templates/base/layout.html:171
 msgid "Community"
 msgstr ""
 
@@ -12687,6 +12679,14 @@ msgstr ""
 #: netbox/templates/inc/filter_list.html:42
 #: netbox/utilities/templates/helpers/table_config_form.html:39
 msgid "Reset"
+msgstr ""
+
+#: netbox/templates/inc/light_toggle.html:4
+msgid "Enable dark mode"
+msgstr ""
+
+#: netbox/templates/inc/light_toggle.html:7
+msgid "Enable light mode"
 msgstr ""
 
 #: netbox/templates/inc/missing_prerequisites.html:8
